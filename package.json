@@ -1,0 +1,24 @@
+{
+  "name": "code-quality-boilerplate",
+  "version": "0.1.0",
+  "description": "Boilerplate for Code Quality Control",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node node_modules/gulp/bin/gulp.js lint"
+  },
+  "keywords": [
+    "Code",
+    "Quality",
+    "Boilerplate"
+  ],
+  "author": "Sagar Patke <sagarpatke@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint-plugin-react": "^6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-htmlhint": "^0.3.1"
+  }
+}
