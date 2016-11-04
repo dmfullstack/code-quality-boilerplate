@@ -8,6 +8,15 @@ module.exports = {
 
   "plugins": ["react"],
 
+  "globals": {
+    "describe": false,
+    "it": false,
+    "before": false,
+    "beforeEach": false,
+    "after": false,
+    "afterEach": false
+  },
+
   "ecmaFeatures": {
     "arrowFunctions": true,
     "binaryLiterals": true,
@@ -152,7 +161,7 @@ module.exports = {
     //
     // These rules are purely matters of style and are quite subjective.
     //
-    "indent": [1, 2], // this option sets a specific tab width for your code (off by default)
+    //"indent": [1, 2], // this option sets a specific tab width for your code (off by default)
     // "brace-style": 1, // enforce one true brace style (off by default)
     "camelcase": 1, // require camel case names
     "comma-spacing": [1, {"before": false, "after": true}], // enforce spacing before and after comma

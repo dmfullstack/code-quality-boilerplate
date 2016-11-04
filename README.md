@@ -8,7 +8,5 @@ Currently includes:
 
 - ESLint
   - ReactJS
+  - AngularJS
 - HTMLHint
-
-TODO:
-- Include rules for AngularJS
