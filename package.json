@@ -4,7 +4,7 @@
   "description": "Boilerplate for Code Quality Control",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node node_modules/gulp/bin/gulp.js test",
     "lint": "node node_modules/gulp/bin/gulp.js lint"
   },
   "keywords": [
@@ -19,6 +19,9 @@
     "eslint-plugin-react": "^6.5.0",
     "gulp": "^3.9.1",
     "gulp-eslint": "^3.0.1",
-    "gulp-htmlhint": "^0.3.1"
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
   }
 }
